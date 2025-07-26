@@ -23,5 +23,5 @@
 
 ---
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=Wendy620.Wendy620)
+![Visitor Count](https://count.getloli.com/get/@Wendy620?theme=rule34)
 
