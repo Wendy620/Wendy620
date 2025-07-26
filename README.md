@@ -10,7 +10,6 @@
 
 ## 🔧 My Projects
 
-- 🤖 [Deep-Learning Notes](https://github.com/Wendy620/Deep-learning): Course notes and experiments on CNN, RNN, and Transformers
 - 🔍 [Image-Text Matching ViLT Project](#): Vision-Language project using ViLT and model compression
 - 🧠 [MLP from Scratch](#): Reimplementing a basic neural network using only NumPy
 
