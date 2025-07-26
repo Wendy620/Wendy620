@@ -1,16 +1,29 @@
 ## Hi there 👋
 
-<!--
-**Wendy620/Wendy620** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+ I'm Wendy!
 
-Here are some ideas to get you started:
+🎓 I'm currently studying **Deep Learning** and working on ML & AI projects.  
+💻 Passionate about building real-world applications using Python & Transformers.  
+📚 Actively learning about LLMs, Multimodal Learning, and ML Research.  
+📫 Reach me: wy010224z@outlook.com
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔧 My Projects
+
+- 🤖 [Deep-Learning Notes](https://github.com/Wendy620/Deep-learning): Course notes and experiments on CNN, RNN, and Transformers
+- 🔍 [Image-Text Matching ViLT Project](#): Vision-Language project using ViLT and model compression
+- 🧠 [MLP from Scratch](#): Reimplementing a basic neural network using only NumPy
+
+---
+
+## 🛠️ Tech Stack
+
+**Languages:** Python, SQL  
+**Libraries:** PyTorch, Hugging Face Transformers, scikit-learn  
+**Tools:** Git, Jupyter, VSCode  
+
+---
+
+## 📈 GitHub Stats
+
+![Wendy620's GitHub stats](https://github-readme-stats.vercel.app/api?username=Wendy620&show_icons=true&theme=tokyonight)
