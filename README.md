@@ -23,6 +23,5 @@
 
 ---
 
-## 📈 GitHub Stats
+![visitors](https://visitor-badge.glitch.me/badge?page_id=Wendy620.Wendy620)
 
-![Wendy620's GitHub stats](https://github-readme-stats.vercel.app/api?username=Wendy620&show_icons=true&theme=tokyonight)
