@@ -671,70 +671,125 @@
 
 ## 💾 Memory Optimization
 
-+ **COAT: Compressing Optimizer States and Activations in FP8** (2025, ICLR'25)  
-  [![Paper](https://img.shields.io/badge/OpenReview-228B22.svg)](https://openreview.net/forum?id=COAT2025)  
++ **Deep Compression: Compressing DNNs with Pruning, Trained Quantization and Huffman Coding** (2016, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-1510.00149-b31b1b.svg)](https://arxiv.org/abs/1510.00149)
+
++ **The State of Sparsity in Deep Neural Networks** (2019, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-1902.09574-b31b1b.svg)](https://arxiv.org/abs/1902.09574)  
+  [![Code](https://img.shields.io/github/stars/google-research/state_of_sparsity.svg?style=social&label=Star)](https://github.com/google-research/google-research/tree/master/state_of_sparsity)
+
++ **Mixed Precision Training** (2018, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-1710.03740-b31b1b.svg)](https://arxiv.org/abs/1710.03740)
+
++ **Training Deep Nets with Sublinear Memory Cost (Gradient Checkpointing)** (2016, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-1604.06174-b31b1b.svg)](https://arxiv.org/abs/1604.06174)
+
++ **Dynamic Tensor Rematerialization** (2021, ICLR)  
+  [![Paper](https://img.shields.io/badge/arXiv-2006.09616-b31b1b.svg)](https://arxiv.org/abs/2006.09616)  
+  [![Code](https://img.shields.io/github/stars/uwsampl/dtr-prototype.svg?style=social&label=Star)](https://github.com/uwsampl/dtr-prototype)
+
++ **MODEl: Memory Optimizations for Deep Learning** (2023, ICML)  
+  [![Paper](https://img.shields.io/badge/ICML-2023-0A5F8C.svg)](https://proceedings.mlr.press/v202/steiner23a.html)  
+  [![Code](https://img.shields.io/github/stars/facebookresearch/MODel_opt.svg?style=social&label=Star)](https://github.com/facebookresearch/MODel_opt)
+
++ **ZeRO: Memory Optimizations Toward Training Trillion-Parameter Models** (2020, IEEE SC)  
+  [![Paper](https://img.shields.io/badge/IEEE-SC-0C479D.svg)](https://doi.org/10.1109/SC41405.2020.00024)
+
++ **ZeRO-Offload: Democratizing Billion-Scale Model Training** (2021, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2101.06840-b31b1b.svg)](https://arxiv.org/abs/2101.06840)
+
++ **Memory and Bandwidth are All You Need for Fully Sharded Data Parallel (FSDP)** (2025, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2504.03655-b31b1b.svg)](https://arxiv.org/abs/2504.03655)
+
++ **COAT: Compressing Optimizer States and Activation for Memory-Efficient FP8 Training** (2025, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2410.19313-b31b1b.svg)](https://arxiv.org/abs/2410.19313)  
   [![Code](https://img.shields.io/github/stars/COAT-Lab/coat.svg?style=social&label=Star)](https://github.com/COAT-Lab/coat)
 
-+ **Gradient Checkpointing: Training Deep Nets with Sublinear Memory Cost** (2016, arXiv'16)  
-  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/1604.06174)
++ **Reducing Transformer Key-Value Cache Size with Cross-Layer Attention** (2024, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2405.12981-b31b1b.svg)](https://arxiv.org/abs/2405.12981)
 
-+ **Dynamic Tensor Rematerialization for Efficient Backpropagation** (2021, NeurIPS'21)  
-  [![Paper](https://img.shields.io/badge/NeurIPS-8A2BE2.svg)](https://proceedings.neurips.cc/paper/2021/hash/1b89a8a9.html)
++ **KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache** (2024, ICML)  
+  [![Paper](https://im.shields.io/badge/arXiv-2402.02750-b31b1b.svg)](https://arxiv.org/abs/2402.02750)  
+  [![Code](https://img.shields.io/github/stars/jy-yuan/KIVI.svg?style=social&label=Star)](https://github.com/jy-yuan/KIVI)
 
-+ **ZeRO-Offload: Democratizing Billion-Scale Model Training** (2021, USENIX'21)  
-  [![Paper](https://img.shields.io/badge/USENIX-1E90FF.svg)](https://www.usenix.org/conference/atc21/presentation/ren)  
-  [![Code](https://img.shields.io/github/stars/microsoft/DeepSpeed.svg?style=social&label=Star)](https://github.com/microsoft/DeepSpeed)
++ **Ring Attention with Blockwise Transformers for Near-Infinite Context** (2023, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2310.01889-b31b1b.svg)](https://arxiv.org/abs/2310.01889)  
+  [![Code](https://img.shields.io/github/stars/lhao499/llm_large_context.svg?style=social&label=Star)](https://github.com/lhao499/llm_large_context)
+  
++ **KV Cache Compression, But What Must We Give in Return? (Comprehensive Benchmark)** (2024, EMNLP Findings)  
+  [![Paper](https://img.shields.io/badge/ACL-EMNLP_Findings-AC6600.svg)](https://aclanthology.org/2024.findings-emnlp.266/)
 
-+ **FSDP: Fully Sharded Data Parallel Training for LLMs** (2025, arXiv'25)  
-  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.11342)
++ **PagedAttention: Efficient Memory Management for Large Language Model Serving with PagedAttention** (2023, arXiv)
+  [![Paper](https://img.shields.io/badge/arXiv-2312.07953-b31b1b.svg)](https://arxiv.org/abs/2309.06180)
 
-+ **PagedAttention: Efficient KV Cache Management for LLM Inference** (2023, arXiv'23)  
-  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.07953)  
-  [![Code](https://img.shields.io/github/stars/vllm-project/vllm.svg?style=social&label=Star)](https://github.com/vllm-project/vllm)
-
-+ **KVQuant: Towards 10M-Token Context LLM Inference via KV Cache Quantization** (2024, arXiv'24)  
-  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2401.18079)  
++ **KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization** (2024, NeurIPS)  
+  [![Paper](https://img.shields.io/badge/NeurIPS-2024-8A2BE2.svg)](https://arxiv.org/abs/2401.18079)  
   [![Code](https://img.shields.io/github/stars/SqueezeAILab/KVQuant.svg?style=social&label=Star)](https://github.com/SqueezeAILab/KVQuant)
-
-+ **StreamingLLM: Continuous Inference with Dynamic KV Caches** (2024, arXiv'24)  
-  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.11163)
-
-> **Summary:**  
-> Memory optimization spans training-time techniques (FP8 compression, checkpointing, ZeRO/FSDP) and inference-time caching (PagedAttention, KVQuant).  
-> These methods jointly reduce GPU/DRAM footprint through recomputation, quantization, and offloading strategies.
-
-
----
 
 ## 🔧 Hardware Support
 
-+ **LLM Hardware Survey: Architectures, Accelerators, and Systems** (2025, arXiv'25)  
-  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.05412)
++ **Large Language Model Inference Acceleration: A Comprehensive Hardware Perspective** (2024, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2410.04466-8A2BE2.svg)](https://arxiv.org/abs/2410.04466)  
+  [![Code](https://img.shields.io/github/stars/Kimho666/LLM_Hardware_Survey.svg?style=social&label=Star)](https://github.com/Kimho666/LLM_Hardware_Survey)
 
-+ **AccLLM: Accelerator Co-design for Efficient LLM Inference** (2025, arXiv'25)  
-  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.00731)
++ **Hardware Acceleration of LLMs: A Comprehensive Survey and Comparison** (2024, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2409.03384-b31b1b.svg)](https://arxiv.org/abs/2409.03384)
 
-+ **TinyMLBench: Benchmarking ML Workloads on NPUs and MCUs** (2025, MLSys'25)  
-  [![Paper](https://img.shields.io/badge/MLSys-8A2BE2.svg)](https://mlsys.org/papers/2025/tinymlbench)  
-  [![Code](https://img.shields.io/github/stars/tinymlbench/tinymlbench.svg?style=social&label=Star)](https://github.com/tinymlbench/tinymlbench)
++ **Understanding the Performance and Power of LLM Inferencing on Edge Accelerators** (2025, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2506.09554-b31b1b.svg)](https://arxiv.org/abs/2506.09554)
 
-+ **EdgeLLM: FPGA–CPU Hybrid Acceleration for On-Device LLMs** (2024, arXiv'24)  
-  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.03217)
++ **Fast On-device LLM Inference with NPUs** (2024, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2407.05858-b31b1b.svg)](https://arxiv.org/abs/2407.05858)
 
-+ **CXL-PIM: Processing-in-Memory for Bandwidth-Bound LLM Inference** (2025, ISCA'25)  
-  [![Paper](https://img.shields.io/badge/ISCA-FF8C00.svg)](https://isca2025.org/accepted-papers)  
-  [![Code](https://img.shields.io/github/stars/pimlab/CXL-PIM.svg?style=social&label=Star)](https://github.com/pimlab/CXL-PIM)
++ **CMSIS-NN: Efficient Neural Network Kernels for Arm Cortex-M CPUs** (2018, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-1801.06601-b31b1b.svg)](https://arxiv.org/abs/1801.06601)
 
-+ **FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low Precision** (2024, NeurIPS'24)  
-  [![Paper](https://img.shields.io/badge/NeurIPS-8A2BE2.svg)](https://openreview.net/forum?id=tVConYid20)  
-  [![Code](https://img.shields.io/github/stars/Dao-AILab/flash-attention.svg?style=social&label=Star)](https://github.com/Dao-AILab/flash-attention)
++ **MLPerf Tiny Benchmark** (2021, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2106.07597-b31b1b.svg)](https://arxiv.org/abs/2106.07597)
+  
++ **LLM-Inference-Bench: Inference Benchmarking of LLMs on AI Accelerators** (2024, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2411.00136-b31b1b.svg)](https://arxiv.org/abs/2411.00136) 
+  [![Code](https://img.shields.io/github/stars/argonne-lcf/LLM-Inference-Bench.svg?style=social&label=Star)](https://github.com/argonne-lcf/LLM-Inference-Bench)
 
-+ **FlightLLM: INT4 FPGA Acceleration for LLM Serving** (2024, arXiv'24)  
-  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.06518)
++ **Evaluating Multi-Instance DNN Inferencing on Multiple Accelerators of an Edge Device** (2025, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2503.09546-b31b1b.svg)](https://arxiv.org/abs/2503.09546)  
 
-> **Summary:**  
-> Hardware support encompasses CPUs/GPUs for general deployment, NPUs/DSPs for mobile inference, and FPGA/PIM systems for customized acceleration.  
-> Compiler–runtime co-design (e.g., TVM, TensorRT, vLLM) bridges algorithmic optimization and device efficiency.
++ **Dissecting the Graphcore IPU Architecture via Microbenchmarking** (2019, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-1912.03413-b31b1b.svg)](https://arxiv.org/abs/1912.03413)  
+
++ **Eyeriss: An Energy-Efficient Reconfigurable Accelerator for CNNs** (2017, IEEE JSSC)  
+  [![Paper](https://img.shields.io/badge/IEEE-JSSC-0C479D.svg)](https://doi.org/10.1109/JSSC.2016.2616357)
+  
++ **SCNN: An Accelerator for Compressed-Sparse CNNs** (2017, ACM SIGARCH)  
+  [![Paper](https://img.shields.io/badge/ACM-Digital_Library-2E8B57.svg)](https://doi.org/10.1145/3140659.3080254)
+
++ **EdgeLLM: A Highly Efficient CPU–FPGA Heterogeneous Edge Accelerator for LLMs** (2025, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2407.21325-b31b1b.svg)](https://arxiv.org/abs/2407.21325)
+
++ **HLSTransform: Energy-Efficient Llama 2 Inference on FPGAs via HLS** (2024, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2405.00738-b31b1b.svg)](https://arxiv.org/abs/2405.00738)
+
++ **LightMamba: Efficient Mamba Acceleration on FPGA with Quantization and HW Co-design** (2025, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2502.15260-b31b1b.svg)](https://arxiv.org/abs/2502.15260)
+
++ **TerEffic: Highly Efficient Ternary LLM Inference on FPGA** (2025, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2502.16473-b31b1b.svg)](https://arxiv.org/abs/2502.16473)
+  
++ **PIM Is All You Need: A CXL-Enabled GPU-Free System for LLM Inference** (2025, ASPLOS’25)  
+  [![Paper](https://img.shields.io/badge/ACM-Digital_Library-2E8B57.svg)](http://dx.doi.org/10.1145/3676641.3716267)
+
++ **PIM-LLM: A High-Throughput Hybrid PIM Architecture for 1-bit LLMs** (2025, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2504.01994-b31b1b.svg)](https://arxiv.org/abs/2504.01994)
+
++ **Benchmarking Energy & Latency in TinyML** (2025, IJCNN’25)  
+  [![Paper](https://img.shields.io/badge/arXiv-2505.15622-b31b1b.svg)](https://arxiv.org/abs/2505.15622)
+
++ **MicroFlow: An Efficient Rust-Based Inference Engine for TinyML** (2024, arXiv / Internet of Things)  
+  [![Paper](https://img.shields.io/badge/arXiv-2409.19432-8A2BE2.svg)](https://arxiv.org/abs/2409.19432)  
+  [![Code](https://img.shields.io/github/stars/matteocarnelos/microflow-rs.svg?style=social&label=Star)](https://github.com/matteocarnelos/microflow-rs)
+
++ **llama.cpp: Port of LLaMA in C/C++** (2023, GitHub)  
+[![Code](https://img.shields.io/github/stars/ggml-org/llama.cpp.svg?style=social&label=Star)](https://github.com/ggml-org/llama.cpp)
 
 
 ## ☁️ Edge-Cloud Collaboration
